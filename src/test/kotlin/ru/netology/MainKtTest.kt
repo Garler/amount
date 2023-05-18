@@ -7,17 +7,6 @@ import org.junit.Assert.*
 class MainKtTest {
 
     @Test
-    fun amountFee_error() {
-        val sum = 10_000
-        val sumMonth = 0
-        val card = "Мир"
-
-        val result = ru.netology.amountFee(amount = sum, amountMonth = sumMonth, cardType = card)
-
-        assertEquals(30, result)
-    }
-
-    @Test
     fun amountFee_mir() {
         val sum = 10_000
         val sumMonth = 0
